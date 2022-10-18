@@ -1,7 +1,7 @@
 import React from "react";
+//useSelector to get/access value from the state
 import { useSelector } from "react-redux";
 const Profile = () => {
-  //useSelector to get value from the state
   //bc we want to get the value from user(its name), then its value
   const user = useSelector((state) => state.user.value);
   return (
