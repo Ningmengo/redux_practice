@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid black;
+  height: 100vh;
+}
+h1 {
+  font-size: 100px;
+}
+p {
+  font-size: 50px;
+  padding-top: 70px;
+}
+button {
+  font-size: 50px;
+}
+.profile {
+  height: 40%;
+  text-align: center;
+}
